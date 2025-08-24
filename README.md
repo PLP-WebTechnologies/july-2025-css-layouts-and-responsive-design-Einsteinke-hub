@@ -1,8 +1,8 @@
-🌐 Responsive Webpage with CSS Grid & Flexbox
+#🌐 Responsive Webpage with CSS Grid & Flexbox
 
 This project is a single-page, responsive website built using pure HTML and CSS. It demonstrates the combined power of CSS Grid for the main layout and Flexbox for flexible, component-level design.
 
-✨ Features
+##✨ Features
 
 📱 Responsive Design – Adapts seamlessly to desktop, tablet, and mobile with CSS media queries.
 
@@ -14,12 +14,12 @@ This project is a single-page, responsive website built using pure HTML and CSS.
 
 🌍 Fluid Content – Currently themed as Wanderlust Chronicles (travel blog), but adaptable for any topic.
 
-📂 File Structure
+##📂 File Structure
 project/
 │── index.html   # Main HTML file
 │── styles.css   # CSS file (if separated from HTML)
 
-🚀 Usage
+##🚀 Usage
 
 Open index.html in any modern browser.
 
