@@ -5,23 +5,9 @@
 
 
 
-A single-page, responsive website built with pure HTML & CSS, showcasing the combined power of CSS Grid for layout and Flexbox for components.
+#A single-page, responsive website built with pure HTML & CSS, showcasing the combined power of CSS Grid for layout and Flexbox for components.
 
-📑 Table of Contents
-
-✨ Features
-
-⚙️ How It Works
-
-📂 File Structure
-
-🚀 Usage
-
-📸 Screenshots
-
-🔗 Live Demo
-
-✨ Features
+#✨ Features
 
 📱 Responsive Design – Works perfectly on desktop, tablet, and mobile.
 
