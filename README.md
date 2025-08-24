@@ -14,35 +14,6 @@ This project is a single-page, responsive website built using pure HTML and CSS.
 
 🌍 Fluid Content – Currently themed as Wanderlust Chronicles (travel blog), but adaptable for any topic.
 
-
-
-
-
-
-
-⚙️ How It Works
-🏗️ Main Layout (.grid-container)
-
-display: grid; sets up the grid.
-
-grid-template-areas + grid-template-columns define structure.
-
-@media queries adjust grid areas at breakpoints (sidebar stacks under main content on smaller screens).
-
-🧭 Navigation & Content Cards
-
-display: flex; on .nav-links and .content-container.
-
-flex-wrap: wrap; allows items to move onto new lines as needed.
-
-flex: 1 1 300px; on .content-card makes each card:
-
-grow (flex-grow: 1)
-
-shrink (flex-shrink: 1)
-
-prefer a base width of 300px (flex-basis).
-
 📂 File Structure
 project/
 │── index.html   # Main HTML file
