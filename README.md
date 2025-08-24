@@ -44,13 +44,3 @@ project/
    Double-click or use your favorite browser.
 
 ---
-
-
-## 📢 **License**
-
-This project is released under the [MIT License](LICENSE).
-
----
-
-> **Created for learning purposes by [Einsteinke-hub](https://github.com/Einsteinke-hub).**  
-> Explore, experiment, and master CSS layout fundamentals!
