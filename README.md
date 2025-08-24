@@ -43,24 +43,8 @@ project/
 2. **Open `index.html` in Your Browser:**  
    Double-click or use your favorite browser.
 
-3. **Play with the Responsive Layout:**  
-   Resize your browser window to see the design adapt beautifully across devices!
-
 ---
 
-## 👀 **Preview**
-
-![Responsive Preview Example](https://user-images.githubusercontent.com/placeholder/demo-preview.png)  
-*Experience flexible layouts and crisp design on any screen.*
-
----
-
-## 🤝 **Contributing**
-
-Want to customize or improve this demo?  
-Feel free to fork, explore, and experiment—PRs are welcome!
-
----
 
 ## 📢 **License**
 
