@@ -1,51 +1,49 @@
-# 🧩 Assignment: CSS Layouts & Responsive Web Design
+🌐 Responsive Webpage with CSS Grid & Flexbox
 
-## Overview
+This project is a single-page, responsive website built using pure HTML and CSS. It demonstrates the combined power of CSS Grid for the main layout and Flexbox for flexible, component-level design.
 
-In this assignment, you'll learn how to bring structure, flexibility, and responsiveness to your web pages using modern CSS layout techniques—**Flexbox** and **Grid**. You'll also apply **Responsive Web Design (RWD)** principles to ensure your page adapts beautifully across screen sizes and devices.
+✨ Features
 
-## Objective
+📱 Responsive Design – Adapts seamlessly to desktop, tablet, and mobile with CSS media queries.
 
-Build a responsive multi-section webpage that uses **Flexbox** and **CSS Grid** for layout and demonstrates how content adjusts across mobile, tablet, and desktop views. You'll showcase your ability to align and position content with precision, using media queries and flexible units to enhance the user experience on any device.
+🟦 CSS Grid – Manages the main page structure (header, nav, main, aside, footer) using grid-template-areas for readability.
 
-## What You’ll Practice
+🟧 Flexbox – Used for navigation links and content cards, ensuring alignment, wrapping, and flexibility.
 
-* Structuring content using Flexbox for 1D layouts (rows or columns)
-* Using CSS Grid for complex 2D layouts
-* Applying responsive design techniques using media queries and relative units (`%, rem`, `vw`, etc.)
-* Creating layouts that gracefully adapt to different screen sizes without breaking
+🚫 No Frameworks – 100% raw CSS, showcasing fundamental layout principles.
 
-## Instructions
+🌍 Fluid Content – Currently themed as Wanderlust Chronicles (travel blog), but adaptable for any topic.
 
-Create a responsive webpage that contains multiple sections—such as a header, navigation bar, content area, sidebar, and footer. You are encouraged to use Flexbox in one part of the page and Grid in another (e.g., Grid for the main layout and Flexbox for cards or navigation alignment).
+⚙️ How It Works
+🏗️ Main Layout (.grid-container)
 
-Make sure your layout:
+display: grid; sets up the grid.
 
-* Looks good on **desktop**, **tablet**, and **mobile**
-* Uses media queries to adjust column layout, spacing, or visibility
-* Demonstrates thoughtful content placement using both layout models
+grid-template-areas + grid-template-columns define structure.
 
-Avoid using any CSS frameworks or libraries—build everything with raw CSS.
+@media queries adjust grid areas at breakpoints (sidebar stacks under main content on smaller screens).
 
-## Deliverables
+🧭 Navigation & Content Cards
 
-Submit the following:
+display: flex; on .nav-links and .content-container.
 
-* `index.html`: Your HTML5 structure
-* `style.css`: Your responsive CSS file with Flexbox, Grid, and media queries
+flex-wrap: wrap; allows items to move onto new lines as needed.
 
-The code should demonstrate:
+flex: 1 1 300px; on .content-card makes each card:
 
-* Clear use of Flexbox and Grid
-* Responsiveness with proper breakpoints
-* Clean, maintainable CSS structure with helpful comments
+grow (flex-grow: 1)
 
-## Tips
+shrink (flex-shrink: 1)
 
-* Effective use of Flexbox and CSS Grid layout techniques
-* Visual clarity and logical content flow across screen sizes
-* Proper use of media queries and responsive units
-* Code readability, organization, and best practices
-* Creativity and attention to layout detail
+prefer a base width of 300px (flex-basis).
 
+📂 File Structure
+project/
+│── index.html   # Main HTML file
+│── styles.css   # CSS file (if separated from HTML)
 
+🚀 Usage
+
+Open index.html in any modern browser.
+
+Resize the window to see the responsive design in action.
