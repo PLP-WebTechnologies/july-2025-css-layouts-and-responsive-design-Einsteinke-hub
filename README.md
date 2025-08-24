@@ -14,6 +14,12 @@ This project is a single-page, responsive website built using pure HTML and CSS.
 
 🌍 Fluid Content – Currently themed as Wanderlust Chronicles (travel blog), but adaptable for any topic.
 
+
+
+
+
+
+
 ⚙️ How It Works
 🏗️ Main Layout (.grid-container)
 
